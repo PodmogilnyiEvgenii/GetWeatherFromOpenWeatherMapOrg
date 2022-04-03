@@ -8,7 +8,7 @@ import java.io.IOException;
 public class App {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        System.out.println("Get weather from openweathermap.org");
+        System.out.println("Get weather from www.openweathermap.org");
         WeatherApp weatherapp = new WeatherApp();
 
         if (weatherapp.getWeather()) {
